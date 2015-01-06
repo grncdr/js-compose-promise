@@ -1,0 +1,31 @@
+{
+  "name": "compose-promise",
+  "version": "1.0.0",
+  "description": "Promise-aware function composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "markdown-code-blocks -t js < README.md | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grncdr/js-compose-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "functional",
+    "compose"
+  ],
+  "author": "Stephen Sugden <me@stephensugden.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grncdr/js-compose-promise/issues"
+  },
+  "homepage": "https://github.com/grncdr/js-compose-promise",
+  "dependencies": {
+    "any-promise": "^0.1.0"
+  },
+  "devDependencies": {
+    "es6-promise": "^2.0.1",
+    "markdown-code-blocks": "0.0.1"
+  }
+}
